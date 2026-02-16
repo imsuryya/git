@@ -13,6 +13,10 @@ def subtract_numbers(a, b):
     """Function to subtract two numbers - added on main by another user"""
     return a - b
 
+def multiply_numbers(a, b):
+    """Function to multiply two numbers - added in feature branch"""
+    return a * b
+
 if __name__ == "__main__":
     print(greet("Developer"))
     print(f"Sum of 5 and 3 is: {add_numbers(5, 3)}")
